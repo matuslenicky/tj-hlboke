@@ -100,6 +100,12 @@
 .chip[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--paper); }
 .teams a { border-bottom: 1px solid var(--line); }
 .teams-n { font: 700 1.6rem/1 var(--disp); }
+/* „A-mužstvo“ zo Sportnetu sa nezmestí do 80px stĺpca jadra (zalomilo sa na „A-“ a prekrylo ligu):
+   prvý stĺpec podľa najdlhšieho názvu, cez subgrid rovnako široký vo všetkých riadkoch */
+.teams { display: grid; grid-template-columns: max-content minmax(0, 1fr) auto; column-gap: 16px; }
+.teams li, .teams a { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; }
+.teams-n { white-space: nowrap; }
+@media (max-width: 559.98px) { .teams-n { font-size: 1.25rem; } }
 .teams-s { font-weight: 600; }
 .join { border-top: 3px solid var(--rule); padding-left: 0; padding-right: 0; }
 .stat b { font-size: 1.9rem; }
@@ -122,3 +128,14 @@
 .ftr-bar { border-top: 1px solid var(--line); color: var(--muted); }
 .demo { background: var(--ink); color: var(--paper); }
 .box .tbl .hm { display: none; }
+
+/* podstránky na telefóne a tablete: plný titul novín len na úvode, inde meno a Menu v jednom riadku */
+@media (max-width: 999.98px) {
+  body:not(.home) .hdr--mast .hdr-in { justify-content: space-between; padding-top: 10px; padding-bottom: 10px; }
+  body:not(.home) .hdr--mast .brand { flex-direction: row; text-align: left; gap: 10px; }
+  body:not(.home) .hdr--mast .brand img { height: 38px; }
+  body:not(.home) .hdr--mast .brand-t { align-items: flex-start; }
+  body:not(.home) .brand-n { font-size: 1.35rem; }
+  body:not(.home) .brand-s { display: none; }
+  body:not(.home) .hdr--mast .menu-btn { position: static; }
+}

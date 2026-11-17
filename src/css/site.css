@@ -119,7 +119,7 @@ a.fx-a:hover .fx-on { text-decoration: underline; }
 .tbl td:not(.tl), .tbl thead th:not(.tl) { width: 1%; white-space: nowrap; }
 .tteam { display: flex; align-items: center; gap: 10px; }
 .tteam .logo { width: 22px; height: 22px; object-fit: contain; flex: none; }
-.tteam .logo--txt { width: 22px; height: 22px; font-size: .625rem; }
+.tteam .logo--txt { width: 22px; height: 22px; font-size: .75rem; letter-spacing: -.04em; }
 .tbl--roc td small { display: block; font-size: .8125rem; color: var(--muted); }
 @media (max-width: 559.98px) { .tbl .hm { display: none; } .tbl th, .tbl td { padding: 9px 5px; } .tteam { gap: 7px; } }
 @media (max-width: 379.98px) { .tbl .tteam .logo { display: none; } .tbl--roc td.nw { white-space: normal; } .tbl--roc td.nw span { display: block; font-size: .8125rem; } }
@@ -144,8 +144,10 @@ html.flt .cols2--list { visibility: hidden; }
 .cal-o span { font-size: .875rem; color: var(--muted); }
 
 /* tímy, súpiska, detail zápasu, kontakt */
-.teams { list-style: none; margin: 0; padding: 0; }
-.teams a { display: grid; grid-template-columns: 80px minmax(0, 1fr) auto; grid-template-areas: 'n s p' 'n l p'; align-items: center; column-gap: 16px; min-height: 64px; padding: 10px 0; color: inherit; text-decoration: none; }
+.teams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr) auto; column-gap: 16px; }
+.teams li { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; }
+.teams-n { white-space: nowrap; }
+.teams a { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; grid-template-areas: 'n s p' 'n l p'; align-items: center; column-gap: 16px; min-height: 64px; padding: 10px 0; color: inherit; text-decoration: none; }
 .teams-n { grid-area: n; } .teams-s { grid-area: s; } .teams-l { grid-area: l; font-size: .875rem; color: var(--muted); } .teams-p { grid-area: p; white-space: nowrap; }
 a:hover .teams-s { text-decoration: underline; }
 .join { margin-top: 40px; padding: 24px; max-width: 640px; }
@@ -312,6 +314,12 @@ a:hover .teams-s { text-decoration: underline; }
 .chip[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--paper); }
 .teams a { border-bottom: 1px solid var(--line); }
 .teams-n { font: 700 1.6rem/1 var(--disp); }
+/* „A-mužstvo“ zo Sportnetu sa nezmestí do 80px stĺpca jadra (zalomilo sa na „A-“ a prekrylo ligu):
+   prvý stĺpec podľa najdlhšieho názvu, cez subgrid rovnako široký vo všetkých riadkoch */
+.teams { display: grid; grid-template-columns: max-content minmax(0, 1fr) auto; column-gap: 16px; }
+.teams li, .teams a { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; }
+.teams-n { white-space: nowrap; }
+@media (max-width: 559.98px) { .teams-n { font-size: 1.25rem; } }
 .teams-s { font-weight: 600; }
 .join { border-top: 3px solid var(--rule); padding-left: 0; padding-right: 0; }
 .stat b { font-size: 1.9rem; }
@@ -334,3 +342,14 @@ a:hover .teams-s { text-decoration: underline; }
 .ftr-bar { border-top: 1px solid var(--line); color: var(--muted); }
 .demo { background: var(--ink); color: var(--paper); }
 .box .tbl .hm { display: none; }
+
+/* podstránky na telefóne a tablete: plný titul novín len na úvode, inde meno a Menu v jednom riadku */
+@media (max-width: 999.98px) {
+  body:not(.home) .hdr--mast .hdr-in { justify-content: space-between; padding-top: 10px; padding-bottom: 10px; }
+  body:not(.home) .hdr--mast .brand { flex-direction: row; text-align: left; gap: 10px; }
+  body:not(.home) .hdr--mast .brand img { height: 38px; }
+  body:not(.home) .hdr--mast .brand-t { align-items: flex-start; }
+  body:not(.home) .brand-n { font-size: 1.35rem; }
+  body:not(.home) .brand-s { display: none; }
+  body:not(.home) .hdr--mast .menu-btn { position: static; }
+}
