@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:zapas-6a40c088e5a4847e62eb005c@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260725T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: FC Družstevník Rybky – TJ Družstevník Hlboké 2:
@@ -34,7 +34,7 @@ LOCATION:Rybky
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a3c3b7ce5a4847e626a538b@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260731T173000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – Spartak Myjava 0:4
@@ -43,7 +43,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0bd14e91f303920b29@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260808T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – FK Tempo Partizánske 2:3
@@ -52,7 +52,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0bd14e91f303920b08@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260816T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Partizán Prečín – TJ Družstevník Hlboké 3:1
@@ -61,7 +61,7 @@ LOCATION:Partizán Prečín
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f303920ec9@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260822T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – ŠK Cífer 1929 1:2
@@ -70,7 +70,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f303920f27@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260829T190000
 DURATION:PT2H
 SUMMARY:A-mužstvo: FK Senica – TJ Družstevník Hlboké 2:1
@@ -79,7 +79,7 @@ LOCATION:FK Senica
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f303920ecf@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260905T160000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – TJ Spartak Kvašov 0:3
@@ -88,7 +88,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f303920f0e@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260912T160000
 DURATION:PT2H
 SUMMARY:A-mužstvo: OFK Tovarníky – TJ Družstevník Hlboké 2:0
@@ -97,7 +97,7 @@ LOCATION:OFK Tovarníky
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f303920f70@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260919T153000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – TJ Partizán Domaniža 1:
@@ -107,7 +107,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f30392105e@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20260927T153000
 DURATION:PT2H
 SUMMARY:A-mužstvo: ZFC 1939 Trenčín – TJ Družstevník Hlboké 1:1
@@ -116,7 +116,7 @@ LOCATION:ihrisko Záblatie
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0cd14e91f303921154@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261003T150000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – TFK Opatová 4:1
@@ -125,7 +125,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0dd14e91f3039212dc@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261010T150000
 DURATION:PT2H
 SUMMARY:A-mužstvo: MFK Vrbové – TJ Družstevník Hlboké 2:1
@@ -134,7 +134,7 @@ LOCATION:Mestský futbalový štadión Jozefa Adamca vo Vrbovom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0dd14e91f303921548@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261017T140000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – FC Slovan Hlohovec 1:2
@@ -143,7 +143,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0dd14e91f3039214a7@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261024T140000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – ŠK LR Crystal 2:4
@@ -152,7 +152,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0dd14e91f30392150e@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261101T140000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Nový Život Veľké Uherce – TJ Družstevník Hl
@@ -162,7 +162,7 @@ LOCATION:Veľké Uherce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0dd14e91f3039215de@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261107T133000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – TJ Slovan Brvnište 2:1
@@ -171,7 +171,7 @@ LOCATION:Hlboké
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0ed14e91f30392180a@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20261115T133000
 DURATION:PT2H
 SUMMARY:A-mužstvo: FK Baník Lehota pod Vtáčnikom B – TJ Družstevní
@@ -181,7 +181,7 @@ LOCATION:TJ Slovan MNV Podhradie
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0ed14e91f303921874@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270307T143000
 DURATION:PT2H
 SUMMARY:A-mužstvo: FK Tempo Partizánske – TJ Družstevník Hlboké
@@ -189,7 +189,7 @@ DESCRIPTION:V. liga Severozápad\, 16. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0ed14e91f303921918@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270314T143000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – TJ Partizán Prečín
@@ -197,7 +197,7 @@ DESCRIPTION:V. liga Severozápad\, 17. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0fd14e91f303921c49@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270321T150000
 DURATION:PT2H
 SUMMARY:A-mužstvo: ŠK Cífer 1929 – TJ Družstevník Hlboké
@@ -205,7 +205,7 @@ DESCRIPTION:V. liga Severozápad\, 18. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0fd14e91f303921e09@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270328T150000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – FK Senica
@@ -213,7 +213,7 @@ DESCRIPTION:V. liga Severozápad\, 19. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0fd14e91f303921c57@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270404T160000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Spartak Kvašov – TJ Družstevník Hlboké
@@ -221,7 +221,7 @@ DESCRIPTION:V. liga Severozápad\, 20. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0fd14e91f303921f0d@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270411T160000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – OFK Tovarníky
@@ -229,7 +229,7 @@ DESCRIPTION:V. liga Severozápad\, 21. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0fd14e91f303921d3e@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270418T163000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Partizán Domaniža – TJ Družstevník Hlboké
@@ -237,7 +237,7 @@ DESCRIPTION:V. liga Severozápad\, 22. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c0fd14e91f303921f7e@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270424T160000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – ZFC 1939 Trenčín
@@ -245,7 +245,7 @@ DESCRIPTION:V. liga Severozápad\, 23. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c10d14e91f30392209d@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270502T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TFK Opatová – TJ Družstevník Hlboké
@@ -253,7 +253,7 @@ DESCRIPTION:V. liga Severozápad\, 24. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c10d14e91f303922322@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270508T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – MFK Vrbové
@@ -261,7 +261,7 @@ DESCRIPTION:V. liga Severozápad\, 25. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c10d14e91f30392233a@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270516T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: FC Slovan Hlohovec – TJ Družstevník Hlboké
@@ -269,7 +269,7 @@ DESCRIPTION:V. liga Severozápad\, 26. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c11d14e91f303922530@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270523T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: ŠK LR Crystal – TJ Družstevník Hlboké
@@ -277,7 +277,7 @@ DESCRIPTION:V. liga Severozápad\, 27. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c10d14e91f303922458@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270529T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – TJ Nový Život Veľké U
@@ -286,7 +286,7 @@ DESCRIPTION:V. liga Severozápad\, 28. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c11d14e91f303922563@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270606T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Slovan Brvnište – TJ Družstevník Hlboké
@@ -294,7 +294,7 @@ DESCRIPTION:V. liga Severozápad\, 29. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4d1c10d14e91f3039224bc@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270613T170000
 DURATION:PT2H
 SUMMARY:A-mužstvo: TJ Družstevník Hlboké – FK Baník Lehota pod Vtá

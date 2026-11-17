@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//TJ Družstevník Hlboké//Zapasy//SK
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:TJ Družstevník Hlboké – U19 Starší dorast
+X-WR-CALNAME:TJ Družstevník Hlboké – Starší dorast U19
 X-WR-TIMEZONE:Europe/Bratislava
 BEGIN:VTIMEZONE
 TZID:Europe/Bratislava
@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:zapas-6a4e45aad14e91f303ae41ad@tj-druzstevnik-hlboke.sportnet
-DTSTAMP:20261117T163237Z
+DTSTAMP:20261117T223844Z
 DTSTART;TZID=Europe/Bratislava:20270501T133000
 DURATION:PT2H
 SUMMARY:U19: TJ Kopčany – TJ Družstevník Hlboké U19
