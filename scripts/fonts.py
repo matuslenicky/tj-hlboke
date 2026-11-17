@@ -1,4 +1,4 @@
-# Stiahne Playfair Display a Libre Franklin (SIL OFL 1.1) z Google Fonts, oreže na latinku strednej Európy,
+# Stiahne Newsreader a IBM Plex Mono (SIL OFL 1.1) z Google Fonts, oreže na latinku strednej Európy,
 # uloží WOFF do src/fonts a zapíše src/fonts/fonts.css.   python -I scripts/fonts.py src/fonts
 import io, re, sys, urllib.request
 from pathlib import Path
@@ -7,8 +7,8 @@ from fontTools.ttLib import TTFont
 
 out_dir = Path(sys.argv[1]); out_dir.mkdir(parents=True, exist_ok=True)
 FAMILIES = {
-    'Playfair Display': 'Playfair+Display:ital,wght@0,700;0,900;1,700',
-    'Libre Franklin': 'Libre+Franklin:wght@400;600;800',
+    'Newsreader': 'Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400',
+    'IBM Plex Mono': 'IBM+Plex+Mono:wght@500',
 }
 UNICODES = (list(range(0x20, 0x7F)) + list(range(0xA0, 0x180)) + list(range(0x2000, 0x200C)) +
             list(range(0x2010, 0x2016)) + list(range(0x2018, 0x201F)) +
@@ -31,10 +31,23 @@ for fam, q in FAMILIES.items():
             cd = font['GDEF'].table.GlyphClassDef.classDefs
             for cp, g in font.getBestCmap().items():
                 if cd.get(g) == 3 and cp in (0x60, 0xA8, 0xAF, 0xB4, 0xB7, 0xB8): cd[g] = 1
+        # Alegreya Sans (aj Cormorant) má predvolene staré (minuskové) číslice; skratka font v CSS vynuluje aj font-feature-settings,
+        # preto sa rovné číslice (lnum) zapečú priamo do cmap: číslice 0 – 9 ukazujú na glyfy z funkcie lnum
+        if 'GSUB' in font:
+            gsub = font['GSUB'].table; cmap = font.getBestCmap(); sub = {}
+            for fr in gsub.FeatureList.FeatureRecord:
+                if fr.FeatureTag != 'lnum': continue
+                for li in fr.Feature.LookupListIndex:
+                    for st in gsub.LookupList.Lookup[li].SubTable:
+                        st = getattr(st, 'ExtSubTable', st)
+                        if hasattr(st, 'mapping'): sub.update(st.mapping)
+            for t in font['cmap'].tables:
+                for cp in range(0x30, 0x3A):
+                    if cp in t.cmap and t.cmap[cp] in sub: t.cmap[cp] = sub[t.cmap[cp]]
         slug = fam.lower().replace(' ', '-')
         name = f'{slug}-{weight}{"i" if style == "italic" else ""}.woff'
         font.flavor = 'woff'; font.save(out_dir / name)
         print(name, (out_dir / name).stat().st_size // 1024, 'KB')
         rules.append(f"@font-face{{font-family:'{fam}';font-style:{style};font-weight:{weight};font-display:swap;src:url({name}) format(\"woff\")}}")
-(out_dir / 'fonts.css').write_text('/* Playfair Display, Libre Franklin (SIL OFL 1.1), orezané na latinku strednej Európy */\n' + '\n'.join(rules) + '\n', encoding='utf8')
+(out_dir / 'fonts.css').write_text('/* Newsreader, IBM Plex Mono (SIL OFL 1.1), orezané na latinku strednej Európy */\n' + '\n'.join(rules) + '\n', encoding='utf8')
 print('fonts.css zapísané')

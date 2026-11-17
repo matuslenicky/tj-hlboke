@@ -6,14 +6,14 @@ Ukážka: https://matuslenicky.github.io/tj-hlboke/ · administrácia (ukážka 
 
 ## Vzhľad
 
-**„Hlbocké noviny“.** V Hlbokom sa v roku 1843 Štúr, Hurban a Hodža dohodli na spisovnej slovenčine a erb obce, ktorý je aj v erbe klubu, nesie otvorenú knihu. Web preto vyzerá ako noviny:
+**„Noviny“ (dizajn v2, 17. 11. 2026).** Novinový papier, čierna tlač, modrá z erbu len v odkazoch. Písmo Newsreader (titulky aj text) a IBM Plex Mono (čísla a tabuľky).
 
-- titul novín s dátumovým riadkom (sezóna a číslo = počet odohraných zápasov áčka), pod ním rubriky medzi dvojitými linkami,
-- titulná strana: hlavný článok o zápase áčka, krátke správy z ostatných tímov, výrez tabuľky, iniciály na začiatku textov,
-- zápasová karta ako **otvorená kniha** (dve strany, chrbát v strede),
-- výňatky z **kroniky klubu** (zápis kronikára z apríla 1945), osobnosti (odchovanec Jaroslav Masrna), Hlboké 1843,
-- papierový podklad, tiráž v päte; na telefóne menu „Obsah čísla“ s bodkovanými vodiacimi čiarami v paneli zľava,
-- písmo **Playfair Display** (titulky) a **Libre Franklin** (text), farby z erbu klubu (modrá, žltá).
+- hlavička ako novinový titul s menom klubu v strede a menu medzi dvojitými linkami,
+- úvod ako titulná strana: hlavný článok o poslednom zápase áčka (skóre, strelci, diváci), vpravo najbližší zápas a výrez tabuľky, pod tým tri stĺpce Program, Výsledky a citát z kroniky 1945,
+- stránka Klub: kronika v dvoch novinových stĺpcoch, odchovanci, ihrisko na Lúčkach a obec,
+- menu na telefóne je papierová plocha cez celú obrazovku.
+
+Web sa skladá zo spoločného jadra v2 (`kluby-siet/engine`: `python assemble.py <web>`), vlastný je `src/site.js` (úvod, Klub, nastavenia) a `src/css/skin.css`.
 
 ## Obsah a zdroje
 

@@ -1,45 +1,21 @@
-// Správanie webu TJ Družstevník Hlboké (bez knižníc): menu „Obsah čísla“ v paneli zľava, filtre zápasov, odpočet, kalendár.
+// Správanie klubového webu (bez knižníc): menu v dialógu, filtre zápasov, odpočet do výkopu, kalendár.
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 
-// ---- menu na telefóne: modálny <dialog> ako panel zhora (Esc a „Zavrieť“ ho zatvoria, fokus sa vráti na tlačidlo) ----
+// ---- menu na telefóne: modálny <dialog> cez celú obrazovku (Esc, „Zavrieť“ a klik na odkaz ho zatvoria, fokus sa vráti na tlačidlo) ----
 const menuBtn = $('.menu-btn'), menu = $('#menu');
 if (menuBtn && menu && typeof menu.showModal === 'function') {
   const close = () => { if (menu.open) menu.close(); };
-  menuBtn.addEventListener('click', () => { menu.showModal(); document.documentElement.classList.add('menu-open'); });
-  menu.addEventListener('close', () => { document.documentElement.classList.remove('menu-open'); menuBtn.focus(); });
+  menuBtn.addEventListener('click', () => { menu.showModal(); menuBtn.setAttribute('aria-expanded', 'true'); document.documentElement.classList.add('menu-open'); });
+  menu.addEventListener('close', () => { menuBtn.setAttribute('aria-expanded', 'false'); document.documentElement.classList.remove('menu-open'); menuBtn.focus(); });
   $('[data-close]', menu).addEventListener('click', close);
-  // klik na odkaz alebo na stmavené pozadie pod panelom (cieľ je vtedy samotný <dialog>, mimo jeho obdĺžnika)
+  // klik na odkaz alebo mimo panelu (cieľom je samotný <dialog>) menu zavrie
   menu.addEventListener('click', (e) => {
     if (e.target.closest('a')) return close();
-    if (e.target !== menu) return;
-    const r = menu.getBoundingClientRect();
-    if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) close();
+    if (e.target === menu) close();
   });
-  matchMedia('(min-width: 1080px)').addEventListener('change', (e) => { if (e.matches) close(); });
+  matchMedia('(min-width: 1000px)').addEventListener('change', (e) => { if (e.matches) close(); }); // od 1000 px je menu v hlavičke (site.css)
 }
-
-// ---- záložky zápasovej karty na úvode (vzor ARIA tabs: šípky, Home/End) ----
-const tabs = $$('[role="tab"]');
-const select = (tab, focus = false) => {
-  tabs.forEach((t) => {
-    const on = t === tab;
-    t.setAttribute('aria-selected', String(on));
-    t.tabIndex = on ? 0 : -1;
-    document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
-  });
-  // focus() neposunie pás záložiek, keď je záložka viditeľná len kúskom (End, šípka z prvej na poslednú)
-  if (focus) { tab.focus({ preventScroll: true }); tab.scrollIntoView({ block: 'nearest', inline: 'nearest' }); }
-};
-tabs.forEach((t, i) => {
-  t.addEventListener('click', () => select(t));
-  t.addEventListener('keydown', (e) => {
-    const k = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
-    if (k === undefined) return;
-    e.preventDefault();
-    select(tabs[(k + tabs.length) % tabs.length], true);
-  });
-});
 
 // ---- odpočet do výkopu ----
 const plural = (n, a, b, c) => `${n} ${n === 1 ? a : n >= 2 && n <= 4 ? b : c}`;
