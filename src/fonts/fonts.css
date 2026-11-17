@@ -1,0 +1,7 @@
+/* Playfair Display, Libre Franklin (SIL OFL 1.1), orezané na latinku strednej Európy */
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:700;font-display:swap;src:url(playfair-display-700i.woff) format("woff")}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;src:url(playfair-display-700.woff) format("woff")}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:900;font-display:swap;src:url(playfair-display-900.woff) format("woff")}
+@font-face{font-family:'Libre Franklin';font-style:normal;font-weight:400;font-display:swap;src:url(libre-franklin-400.woff) format("woff")}
+@font-face{font-family:'Libre Franklin';font-style:normal;font-weight:600;font-display:swap;src:url(libre-franklin-600.woff) format("woff")}
+@font-face{font-family:'Libre Franklin';font-style:normal;font-weight:800;font-display:swap;src:url(libre-franklin-800.woff) format("woff")}

@@ -1,0 +1,186 @@
+{
+  "_zdroj": "Ručne zapísané len zo zverejnených zdrojov (uvedené pri každej časti). Nič nedopĺňať odhadom – chýbajúce údaje dodá klub.",
+  "nazov": "TJ Družstevník Hlboké",
+  "kratky": "TJ Hlboké",
+  "pravnyNazov": "Telovýchovná jednota Družstevník Hlboké",
+  "_pravnyNazov": "Sportnet",
+  "mesto": "Hlboké",
+  "zalozenie": 1933,
+  "futbalOd": 1932,
+  "_zalozenie": "rok na erbe klubu (1933); kronika na doterajšom webe tjhlboke.sk (archív 2017, História): prvé zápasy 1932, ihrisko v Krčažnom budované od jari 1933",
+  "farby": "modrá, biela a žltá",
+  "_farby": "erb klubu",
+  "erbAlt": "Erb TJ Hlboké: modrý štít s bielym pruhom, lopta v žltom kruhu, rok 1933, nápis TJ Hlboké a dole erb obce s otvorenou knihou, lipovou ratolesťou a piatimi hviezdami",
+  "adresa": [
+    "Športová 249",
+    "906 31 Hlboké"
+  ],
+  "_adresa": "doterajší web klubu (Kontakt, archív 2015); Sportnet uvádza ulicu Družstevná a PSČ 906 31",
+  "kontakt": {
+    "email": "hlboketj@gmail.com"
+  },
+  "_kontakt": "Sportnet (kontakt klubu). Telefóny členov výboru na starom webe sú z roku 2016, preto sa neuvádzajú.",
+  "sportnetUrl": "https://sportnet.sme.sk/futbalnet/k/tj-druzstevnik-hlboke/",
+  "obecUrl": "https://www.obechlboke.sk/",
+  "staryWeb": "https://web.archive.org/web/2017/http://tjhlboke.sk/klub/historia",
+  "_staryWeb": "doména tjhlboke.sk zanikla (odkaz na ňu je stále na webe obce), posledné články v archíve z decembra 2019",
+  "socialne": {},
+  "ihrisko": {
+    "_zdroj": "kronika na doterajšom webe klubu (Budovanie nového športového areálu); Sportnet (poloha)",
+    "nazov": "Futbalové ihrisko na Lúčkach",
+    "kratky": "ihrisko na Lúčkach",
+    "adresa": [
+      "Družstevná",
+      "906 31 Hlboké"
+    ],
+    "geo": [
+      48.6609614,
+      17.3998117
+    ],
+    "pribeh": "Nové ihrisko vzniklo na hone Lúčky, kde mali záhumienky členovia JRD. Na žiadosť Sokola podpísalo vedenie družstva darovaciu listinu na pozemok s výmerou 2,14 ha, ten potom niekoľkokrát preorali, zrovnali a zatrávnili. Prvý zápas sa tu hral v lete 1952.",
+    "stavby": [
+      {
+        "rok": "1952",
+        "text": "prvý zápas na novom ihrisku"
+      },
+      {
+        "rok": "1953",
+        "text": "basketbalové a volejbalové ihrisko a doskočisko"
+      },
+      {
+        "rok": "1965",
+        "text": "začala sa stavba šatní, dovtedy slúžila stará drevená šopa"
+      },
+      {
+        "rok": "1967",
+        "text": "ohrada športového areálu"
+      },
+      {
+        "rok": "1971",
+        "text": "bufet"
+      }
+    ],
+    "tribuna": "Pod vedením predsedu TJ Jozefa Balážika vyrástla svojpomocne tribúna v hodnote 250 tisíc Kčs. Na stavbe pracovali hráči oboch mužstiev a množstvo brigádnikov z obce.",
+    "krcazne": "Prvé ihrisko si mladí Hlbočania postavili v rokoch 1933 – 1934 v Krčažnom, kde kedysi stála tehelňa a boli močidlá na máčanie konopí. Pracovali sekerou, rýľom, lopatou a fúrikom, koľajničky a vozíky si požičali z miestneho liehovaru."
+  },
+  "obec": {
+    "_zdroj": "Wikipédia sk (Hlboké)",
+    "text": "Hlboké leží v okrese Senica. Na evanjelickej fare tu pôsobil Jozef Miloslav Hurban a v roku 1843 sa tu stretol s Ľudovítom Štúrom a Michalom Miloslavom Hodžom. Na tomto stretnutí sa dohodli na spisovnej slovenčine.",
+    "osobnosti": [
+      {
+        "meno": "Jozef Miloslav Hurban",
+        "text": "evanjelický farár v Hlbokom, prvý predseda Slovenskej národnej rady"
+      },
+      {
+        "meno": "Svetozár Hurban-Vajanský",
+        "text": "spisovateľ a publicista, narodil sa v Hlbokom v roku 1847"
+      }
+    ],
+    "pamiatky": "Evanjelický kostol z roku 1787, pamätný dom na evanjelickej fare, pomník J. M. Hurbana od Františka Motošku z roku 1929 a jeho náhrobok od architekta Dušana Jurkoviča z roku 1949."
+  },
+  "historia": [
+    {
+      "rok": "1932",
+      "text": "Prvé zápasy sa hrajú na voľných miestach pri stodolách a na strniskách po žatve. Prvý zápas na takomto ihrisku v Lúčkach hrá Hlboké proti Čáčovu.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1934",
+      "text": "V lete je hotové ihrisko v Krčažnom. Na otváracom turnaji zdolá AC Sparta Hlboké Sobotište aj Čáčov a vyhrá. Prvý historický úspech hlbockého futbalu.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1944",
+      "text": "Klub nastupuje do prvej dlhodobej súťaže ako ŠO SEM Hlboké (Športový odbor sväzu evanjelickej mládeže). Prvý majstrovský zápas sa hrá s dožinkovými oslavami.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1945",
+      "text": "Kronikár Štefan Kovár zapísal, že front prešiel cez Hlboké 6. apríla 1945. Prvý zápas po oslobodení hrá Hlboké 22. mája proti Sotinej a vyhráva 4 : 0.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1952",
+      "text": "Prvý zápas na novom ihrisku na Lúčkach, kde klub hrá dodnes.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1958",
+      "text": "Klub dostáva názov TJ Družstevník Hlboké.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1970",
+      "text": "Víťazstvo v skupine III. triedy a postup do okresného preboru.",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "1972",
+      "text": "Druhé miesto v okresnom prebore po sérii 18 zápasov bez prehry a historický postup do krajskej súťaže. Milan Bartoň strelil 17 gólov. V júli prichádza do Hlbokého prvoligový Spartak Trnava s odchovancom Jaroslavom Masrnom (0 : 5).",
+      "zdroj": "kronika na webe klubu"
+    },
+    {
+      "rok": "2014",
+      "text": "Do Hlbokého prichádza Peter Kumančík, bývalý obranca prvoligového Spartaka Myjava. Neskôr je hrajúcim trénerom a kapitánom.",
+      "zdroj": "Wikipédia; NaZáhorí.sk, 2018"
+    },
+    {
+      "rok": "2024/25",
+      "text": "Druhé miesto v 6. lige Západ so 60 bodmi, najviac strelených (74) aj najmenej inkasovaných gólov. Marek Šustek je kráľom strelcov s 30 gólmi. O postup prichádza Hlboké v Cíferi, kde domáci vyrovnali na 1 : 1 v nadstavenom čase.",
+      "zdroj": "Záhorák, 29. 6. 2025"
+    },
+    {
+      "rok": "2026/27",
+      "text": "Hlboké hrá V. ligu ako nováčik. Na záhorácke derby nováčikov v Senici prišlo 850 divákov a v Slovnaft Cupe privítalo Hlboké tretioligový Spartak Myjava.",
+      "zdroj": "Záhorák, 31. 8. 2026; Sportnet"
+    }
+  ],
+  "kronika": {
+    "_zdroj": "kronika na doterajšom webe klubu, zápis kronikára Štefana Kovára z apríla 1945",
+    "citat": "Športovci prežili túto vojnu bez úrazu. Majetok zostal v poriadku, až na maličkosti. Chýba len jeden starý futbal a niekoľko kopačiek. Tešíme sa aj my, futbalisti, že budeme môcť začať hrať futbal.",
+    "autor": "Štefan Kovár, kronikár a tajomník klubu, 1945"
+  },
+  "odchovanci": {
+    "_zdroj": "doterajší web klubu (Osobnosti: Jaroslav Masrna, Emil Morávek, archív 2013); Wikipédia en (Peter Kumančík)",
+    "zoznam": [
+      {
+        "meno": "Jaroslav Masrna",
+        "roky": "nar. 26. mája 1949",
+        "text": "Odchovanec z Hlbokého, rýchlonohý útočník Spartaka Trnava. S Malatinského Spartakom bol trikrát majstrom ČSSR (1971, 1972, 1973) a dvakrát vyhral Československý pohár, v lige odohral 130 zápasov a strelil 22 gólov. Dvakrát hral za reprezentáciu ČSSR, s výberom do 23 rokov získal v roku 1972 titul majstra Európy."
+      },
+      {
+        "meno": "Emil Morávek",
+        "roky": "nar. 21. mája 1939",
+        "text": "Dlhoročný hráč, prvý vlastný vyškolený tréner klubu, funkcionár a predseda TJ. Mal zásluhu na ohrade a bufete areálu."
+      },
+      {
+        "meno": "Peter Kumančík",
+        "roky": "v Hlbokom od roku 2014",
+        "text": "Bývalý obranca Spartaka Myjava v najvyššej súťaži. V Hlbokom bol hrajúcim trénerom (2018) a kapitánom, v sezóne 2024/25 odohral najviac minút v celej súťaži a nevynechal ani jeden zápas."
+      }
+    ]
+  },
+  "sutaze": {
+    "_pozn": "čitateľné názvy súťaží namiesto skratiek a názvov so sponzormi zo Sportnetu",
+    "Slovnaft Cup": "Slovnaft Cup",
+    "V. liga Severozápad Macron | yoursport ZsFZ": "V. liga Severozápad",
+    "IV. liga  U19  Macron | yoursport  ZsFZ": "IV. liga U19 ZsFZ",
+    "IV. liga U19 Macron | yoursport ZsFZ": "IV. liga U19 ZsFZ",
+    "IV.liga- SLOVIMM - MLŽ-U13-ObFZ SE": "IV. liga mladších žiakov U13 ObFZ Senica",
+    "Prípravka -- KRÁĽOVSKÝ CATERING - U11-MO ObFZ SE": "Prípravka U11 ObFZ Senica",
+    "III. liga Prípravka-HUMMEL-U9-MO ObFZ SE": "III. liga prípraviek U9 ObFZ Senica"
+  },
+  "nazvy": {
+    "_pozn": "čitateľné názvy súperov namiesto úradných názvov a veľkých písmen zo Sportnetu",
+    "Trenčiansky Futbalový Klub Opatová": "TFK Opatová",
+    "Futbalový klub Senica": "FK Senica",
+    "Futbalový klub Senica C": "FK Senica C",
+    "ŠK LR CRYSTAL": "ŠK LR Crystal",
+    "FK TEMPO Partizánske": "FK Tempo Partizánske",
+    "Telovýchovná jednota Kopčany": "TJ Kopčany",
+    "Mestský futbalový klub Gbely": "MFK Gbely",
+    "TJ Družstevník Kunov o.z.": "TJ Družstevník Kunov",
+    "TJ Družstevník Popudinské Močidlany": "TJ Družstevník Popudinské Močidľany",
+    "TJ Slovan Šaštín - Stráže": "TJ Slovan Šaštín-Stráže"
+  }
+}
