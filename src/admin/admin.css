@@ -1,9 +1,5 @@
 /* Administrácia TJ Družstevník Hlboké (ukážka) – mobil najprv: klub bude výsledky dopĺňať z telefónu priamo zo štadióna. */
 /* písmo webu (Libre Franklin, nadpisy Playfair Display) – súbory sú v ../fonts */
-@font-face { font-family: 'Libre Franklin'; font-weight: 400; font-display: swap; src: url(../fonts/libre-franklin-400.woff) format('woff'); }
-@font-face { font-family: 'Libre Franklin'; font-weight: 600; font-display: swap; src: url(../fonts/libre-franklin-600.woff) format('woff'); }
-@font-face { font-family: 'Libre Franklin'; font-weight: 800; font-display: swap; src: url(../fonts/libre-franklin-800.woff) format('woff'); }
-@font-face { font-family: 'Playfair Display'; font-weight: 700; font-display: swap; src: url(../fonts/playfair-display-700.woff) format('woff'); }
 
 :root {
   color-scheme: light;
@@ -13,8 +9,8 @@
   --green: #198a4a; --green-bg: #e6f4ec; --amber: #9a6400; --amber-bg: #fdf3dc; --blue: #2457c5; --blue-bg: #e9f0fd;
   --yellow-card: #f5c400; --red-card: #bf2f27; --gold: #f2c400;
   --r: 14px; --r-s: 10px;
-  --f: 'Libre Franklin', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --f-d: 'Playfair Display', Georgia, serif;
+  --f: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-d: system-ui, sans-serif;
   --nav-h: 64px; --top-h: 56px; --demo-h: 28px;
   --shadow: 0 1px 2px rgba(18, 19, 23, .06), 0 4px 16px rgba(18, 19, 23, .05);
 }

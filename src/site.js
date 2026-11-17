@@ -46,8 +46,8 @@ add('', {
   </aside>
 </div></section>
 <section class="cols3-sec"><div class="wrap cols3">
-  <section aria-labelledby="prog-h"><h2 class="h3" id="prog-h">Program</h2>${upcoming.length ? fxList(upcoming.slice(0, 5), R) : '<p>Ďalšie zápasy zatiaľ nie sú vyžrebované.</p>'}${more(`${R}zapasy/`, 'Všetky zápasy')}</section>
-  <section aria-labelledby="res-h"><h2 class="h3" id="res-h">Výsledky</h2>${fxList(results.filter((x) => x.score).slice(0, 5), R)}${more(`${R}zapasy/#z-vys`, 'Všetky výsledky')}</section>
+  <section aria-labelledby="prog-h"><h2 class="h3" id="prog-h">Program</h2>${homeUp(5).length ? fxList(homeUp(5), R) : '<p>Ďalšie zápasy zatiaľ nie sú vyžrebované.</p>'}${more(`${R}zapasy/`, 'Všetky zápasy')}</section>
+  <section aria-labelledby="res-h"><h2 class="h3" id="res-h">Výsledky</h2>${fxList(homeRes(5), R)}${more(`${R}zapasy/#z-vys`, 'Všetky výsledky')}</section>
   <section aria-labelledby="kr-h"><h2 class="h3" id="kr-h">Z kroniky, apríl 1945</h2><blockquote class="cite"><p>„${esc(club.kronika.citat)}“</p><footer>${esc(club.kronika.autor)}</footer></blockquote>${more(`${R}klub/`, 'História klubu')}</section>
 </div></section>`;
   },
