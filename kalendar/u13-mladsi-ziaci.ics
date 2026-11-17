@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TJ Družstevník Hlboké//Zapasy//SK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TJ Družstevník Hlboké – U13 Mladší žiaci
+X-WR-TIMEZONE:Europe/Bratislava
+BEGIN:VTIMEZONE
+TZID:Europe/Bratislava
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zapas-6a50e12cd14e91f303ba09c9@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260815T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – TJ Iskra Holíč B 2:12
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 1. kolo\nDomáci
+  zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a577c9bd14e91f30357c8a0@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260823T130000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Popudinské Močidľany – TJ Družstevník
+  Hlboké U13 4:2
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 2. kolo\nZápas 
+ vonku
+LOCATION:Popudinské Močidľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7343ab62c4077e4f587d86@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260830T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – TJ Družstevník Kunov 16:3
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 3. kolo\nDomáci
+  zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12dd14e91f303ba108a@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260906T120000
+DURATION:PT2H
+SUMMARY:U13: FK Cerová – TJ Družstevník Hlboké U13 4:0
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 4. kolo\nZápas 
+ vonku
+LOCATION:štadión FK Cerová
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12cd14e91f303ba0c81@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260920T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – TJ Chvojničan Radošovce 0:
+ 11
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 6. kolo\nDomáci
+  zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12fd14e91f303ba1844@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260926T140000
+DURATION:PT2H
+SUMMARY:U13: TJ Tatran Jablonica – TJ Družstevník Hlboké U13 16:1
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 7. kolo\nZápas 
+ vonku
+LOCATION:Tatran Jablonica
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12dd14e91f303ba0ee3@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261004T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – FC Družstevník Rybky 0:11
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 8. kolo\nDomáci
+  zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12dd14e91f303ba0e3c@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261011T143000
+DURATION:PT2H
+SUMMARY:U13: Spartak Myjava B – TJ Družstevník Hlboké U13 10:0
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 9. kolo\nZápas 
+ vonku
+LOCATION:Spartak Myjava - UT
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12dd14e91f303ba118b@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261017T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – FK Senica C 0:12
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 10. kolo\nDomác
+ i zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12cd14e91f303ba0cc6@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261025T100000
+DURATION:PT2H
+SUMMARY:U13: OFK Mokrý Háj – TJ Družstevník Hlboké U13 8:0
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 11. kolo\nZápas
+  vonku
+LOCATION:Pod Vintoperkom
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12ed14e91f303ba1317@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261030T120000
+DURATION:PT2H
+SUMMARY:U13: TJ Iskra Holíč B – TJ Družstevník Hlboké U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 12. kolo\nZápas
+  vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12ed14e91f303ba1339@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261101T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – TJ Družstevník Popudinské
+  Močidľany 0:5
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 13. kolo\nDomác
+ i zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12dd14e91f303ba0ead@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261108T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Kunov – TJ Družstevník Hlboké U13 5:0
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Senica\, 14. kolo\nZápas
+  vonku
+LOCATION:Futbalový štadión TJ Družstevník Kunov
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12fd14e91f303ba170b@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270321T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – FK Cerová
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 15. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e130d14e91f303ba1baa@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270328T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Chvojničan Radošovce – TJ Družstevník Hlboké U13
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 17. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e130d14e91f303ba1a29@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270404T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – TJ Tatran Jablonica
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 18. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12fd14e91f303ba18aa@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270411T100000
+DURATION:PT2H
+SUMMARY:U13: FC Družstevník Rybky – TJ Družstevník Hlboké U13
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 19. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12fd14e91f303ba191a@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270418T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – Spartak Myjava B
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 20. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e130d14e91f303ba1978@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270425T100000
+DURATION:PT2H
+SUMMARY:U13: FK Senica C – TJ Družstevník Hlboké U13
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 21. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e12fd14e91f303ba178c@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270502T100000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Hlboké U13 – OFK Mokrý Háj
+DESCRIPTION:IV. liga MO Mladší žiaci U13\, 22. kolo\nDomáci zápas
+END:VEVENT
+END:VCALENDAR

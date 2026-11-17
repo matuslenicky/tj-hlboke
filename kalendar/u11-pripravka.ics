@@ -1,0 +1,231 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TJ Družstevník Hlboké//Zapasy//SK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TJ Družstevník Hlboké – U11 Prípravka
+X-WR-TIMEZONE:Europe/Bratislava
+BEGIN:VTIMEZONE
+TZID:Europe/Bratislava
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zapas-6a50e516d14e91f303c0b50d@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260816T130000
+DURATION:PT2H
+SUMMARY:U11: TJ Tatran Jablonica – TJ Družstevník Hlboké U11 11:4
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 1. kolo\nZápas vonku
+LOCATION:Tatran Jablonica
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7343a762c4077e4f587317@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260822T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Družstevník Popudinské
+  Močidľany 5:0
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 2. kolo\nDomáci zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e516d14e91f303c0b58d@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260829T100000
+DURATION:PT2H
+SUMMARY:U11: OFK Mokrý Háj – TJ Družstevník Hlboké U11 6:0
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 3. kolo\nZápas vonku
+LOCATION:Pod Vintoperkom
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e517d14e91f303c0b754@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260905T100000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Družstevník Sobotište 
+ 11:4
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 4. kolo\nDomáci zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e517d14e91f303c0b9c2@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20260927T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – FK Čáčov 1933
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 7. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e517d14e91f303c0b72d@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261001T173000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Dubovce – TJ Družstevník Hlboké U11 4:7
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 5. kolo\nZápas vonku
+LOCATION:Slovan Dubovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e517d14e91f303c0b929@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261003T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Kunov – TJ Družstevník Hlboké U11 0:4
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 8. kolo\nZápas vonku
+LOCATION:Futbalový štadión TJ Družstevník Kunov
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e517d14e91f303c0ba9d@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261010T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Iskra Holíč 6:7
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 9. kolo\nDomáci zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e517d14e91f303c0bb31@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261018T100000
+DURATION:PT2H
+SUMMARY:U11: FK Cerová – TJ Družstevník Hlboké U11 2:3
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 10. kolo\nZápas vonku
+LOCATION:štadión FK Cerová
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e518d14e91f303c0be6b@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261029T170000
+DURATION:PT2H
+SUMMARY:U11: FC Družstevník Rybky – TJ Družstevník Hlboké U11 1:7
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 12. kolo\nZápas vonku
+LOCATION:Rybky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e518d14e91f303c0c188@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261031T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – MFK Skalica B 10:2
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 13. kolo\nDomáci zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e518d14e91f303c0bf9a@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261107T100000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Tatran Jablonica 5:8
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 14. kolo\nDomáci zápas
+LOCATION:Hlboké
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e518d14e91f303c0bcde@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20261114T150000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Chvojničan Radošovce
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 11. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e518d14e91f303c0c0a8@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270320T100000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Popudinské Močidľany – TJ Družstevník
+  Hlboké U11
+DESCRIPTION:III. liga MO Prípravky U11\, 15. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e518d14e91f303c0c1ab@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270325T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – OFK Mokrý Háj
+DESCRIPTION:III. liga MO Prípravky U11\, 16. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e519d14e91f303c0c394@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270327T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Sobotište – TJ Družstevník Hlboké U11
+DESCRIPTION:III. liga MO Prípravky U11\, 17. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e519d14e91f303c0c40d@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270403T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Slovan Dubovce
+DESCRIPTION:III. liga MO Prípravky U11\, 18. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e519d14e91f303c0c5be@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270417T100000
+DURATION:PT2H
+SUMMARY:U11: FK Čáčov 1933 – TJ Družstevník Hlboké U11
+DESCRIPTION:Prípravka U11 ObFZ Senica\, 20. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e519d14e91f303c0c631@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270424T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – TJ Družstevník Kunov
+DESCRIPTION:III. liga MO Prípravky U11\, 21. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e519d14e91f303c0c7c7@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270502T100000
+DURATION:PT2H
+SUMMARY:U11: TJ Iskra Holíč – TJ Družstevník Hlboké U11
+DESCRIPTION:III. liga MO Prípravky U11\, 22. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e519d14e91f303c0c788@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270508T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – FK Cerová
+DESCRIPTION:III. liga MO Prípravky U11\, 23. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e51ad14e91f303c0c920@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270515T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Chvojničan Radošovce – TJ Družstevník Hlboké U11
+DESCRIPTION:III. liga MO Prípravky U11\, 24. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e51ad14e91f303c0ca3e@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270522T120000
+DURATION:PT2H
+SUMMARY:U11: TJ Družstevník Hlboké U11 – FC Družstevník Rybky
+DESCRIPTION:III. liga MO Prípravky U11\, 25. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a50e51ad14e91f303c0cc0f@tj-druzstevnik-hlboke.sportnet
+DTSTAMP:20261117T132122Z
+DTSTART;TZID=Europe/Bratislava:20270530T120000
+DURATION:PT2H
+SUMMARY:U11: MFK Skalica B – TJ Družstevník Hlboké U11
+DESCRIPTION:III. liga MO Prípravky U11\, 26. kolo\nZápas vonku
+END:VEVENT
+END:VCALENDAR
