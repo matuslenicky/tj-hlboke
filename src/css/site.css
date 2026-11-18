@@ -212,6 +212,15 @@ a:hover .teams-s { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 /* ===== koniec základu, nasleduje skin.css webu ===== */
 
+/* tímy na úzkom displeji: poradie pod súťažou, stredný stĺpec sa nestlačí na nulu */
+@media (max-width: 459.98px) {
+  .teams { grid-template-columns: max-content minmax(0, 1fr); }
+  .teams a { grid-template-areas: 'n s' 'n l' 'n p'; row-gap: 2px; }
+  .teams-p { white-space: normal; }
+}
+/* meno klubu v hlavičke pri 320 px nesmie zájsť pod tlačidlo Menu */
+@media (max-width: 379.98px) { .hdr .brand-n { white-space: normal; line-height: 1.1; } .hdr .brand-s { display: none; } }
+
 /* TJ Družstevník Hlboké – „Noviny“. Novinový papier, čierna tlač, modrá z erbu len v odkazoch. */
 :root {
   --bg: #f5f1e6; --paper: #fbf8f0; --ink: #1a1916; --muted: #5a554b; --line: #cfc6b1; --rule: #1a1916;
